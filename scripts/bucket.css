@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    
+      
+}
+#bucket{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+   gap: 20px;
+    text-align: center;
+    
+    margin: 20px;
+}
+#total-amount{
+    padding: 15px 0 0 0;
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 35px;
+    gap:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+#imgg{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+/* #bucket img{
+    max-width: 200px;
+} */
+#checkout{
+    background-color:black;
+    color:aliceblue;
+    font-size: larger;
+    padding: 10px;
+    align-content: center;
+    
+
+    
+}
+#checkout:hover{
+    color: aliceblue;
+    background-color: grey;
+}
+button{
+    background-color:black;
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body{
+    background-color: grey;
+}
+p{
+    font-size: medium;
+    font-weight: 400px;
+}
+#price{
+    font-size: larger;
+    font-weight: 400px;
+    padding-bottom: 10px;
+}
+#box{
+    height: 450px;
+   background-color: lightslategrey;
+   border-radius: 10px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
